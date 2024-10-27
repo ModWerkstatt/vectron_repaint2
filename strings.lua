@@ -2,7 +2,7 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "Siemens Vectron MS und AC Repaint Pack 1",
+		["mod_name"] = "Siemens Vectron MS und AC Repaint Pack 2",
 		["mod_desc"] = "This is the repaint package for the Siemens Vectron MS and AC from the ModWerkstatt. There are 89 paint finishes included in this package, SBB paint finishes were created in cooperation and under permission of SBB Cargo International and Railcolor.",
 
         ["br193_ms_menu"] = "Vectron class 193 MS",
@@ -67,7 +67,7 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Siemens Vectron MS und AC Repaint Paket 1",
+		["mod_name"] = "Siemens Vectron MS und AC Repaint Paket 2",
 		["mod_desc"] = "Dies ist das Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 89 Lackierungen enthalten. Lackierungen der SBB entstanden in Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
 
         ["br193_ms_menu"] = "Vectron BR 193 MS",
@@ -104,9 +104,9 @@ return {
 
 		
 		["br193_ms_sbb13_name"] = 		"BR 193 139 MS SBBCINT Italienpiercer (2024)",		
-		["br193_ms_sbb14_name"] = 		"BR 193 547 MS SBBCINT Alppiercer 3 (xxxx)",
-		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (xxx)",
-		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (Bavaria München)",
+		["br193_ms_sbb14_name"] = 		"BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
+		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
+		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
 		["br193_ms_sbb17_name"] = 		"BR 193 54x MS SBBCINT PLATZHALTER",
 		["br193_ms_sbb18_name"] = 		"BR 193 051 MS SBBC",
 		["br193_ms_sbb19_name"] = 		"BR 193 05x MS SBBC PLATZHALTER",
