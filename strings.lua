@@ -99,42 +99,9 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Siemens Vectron MS und AC Repaint Paket 2",
-		["mod_desc"] = "Dies ist das Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 89 Lackierungen enthalten. Lackierungen der SBB entstanden in Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
+		["mod_name"] = "Vectron Paket SBB Cargo International",
+		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 19 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
 
-        ["br193_ms_menu"] = "Vectron BR 193 MS",
-		["br193_ac_menu"] = "Vectron BR 193 AC",
-		["br193_dc_menu"] = "Vectron BR 193 DC",
-        ["br193_fake_ms_menu"] = "Vectron BR 193 MS Fakes",
-        ["br193_fake_ac_menu"] = "Vectron BR 193 AC Fakes",
-        ["br193_fake_dc_menu"] = "Vectron BR 193 DC Fakes",
-		["br193_desc"] = "Der Vectron ist eine moderne Drehstromlokomotive für den internationalen Personen- und Güterverkehr in Europa. 2014 wurde erstmal der Vectron MS vorgestellt mit einer Geschwindigkeit von 200 km/h (auch mit 160 km/h erhältlich) und einer Dauerleistung von 6400 kW.",
-
-		["br192_menu"] = "Smartron BR 192",
-		["br192_fake_menu"] = "Smartron BR 192",
-		["br192_desc"] = "Die Smartron ist eine abgespeckte Version der Vectron. Die Smartron ist nur in blau metallic erhältlich, die Leistung beträgt 5600 kW und ist nur auf 140 km/h zugelassen, die Lok darf auch immer nur in einem Land verkehren. Die Smartron besitzt für Deutschland die Zugsicherungssysteme PZB/LZB und ETCS. ",
-
-		["br193_ms"] = 	"Vectron als Mehrsystem-Lok mit 4 Stromabnehmern",
-		["br193_ac"] = 	"Vectron als Wechselstrom-Lok mit 2 Stromabnehmern",
-		["br193_zza"] = "Vectron als Wechselstrom-Lok mit 2 Stromabnehmern und Zugzielanzeiger",
-		["br192"] = 	"Smartron als Wechselstrom-Lok mit 2 Stromabnehmern",
-
-		["Ms_br193"] = "Vectron BR 193 Mehrsystem aktivieren?",
-		["option_ms_br193_desc"] = "Soll die Vectron BR 193 für das Mehrsystem (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["Ac_br193"] = "Vectron BR 193 Wechselstromsystem aktivieren?",
-		["option_ac_br193_desc"] = "Soll die Vectron BR 193 für das Wechselstromsystem (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["dc_br193"] = "Vectron BR 193 Gleichstromsystem aktivieren?",
-		["option_dc_br193_desc"] = "Soll die Vectron Br 193 für das Gleichstromsystem (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["Sm_br193"] = "Smartron BR 192 aktivieren?",
-		["option_sm_br193_desc"] = "Soll die Smartron BR 192 (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["dachinl_br193"] = "Vectron BR 193 mit DACHINL Ausrüstung aktivieren?",
-		["option_dachinal_br193_desc"] = "Soll die Vectron BR 193 mit DACHINL Ausrüstung (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["osteuropa_br193"] = "Vectron BR 193 mit Osteuropa Ausrüstung aktivieren?",
-		["option_osteuropa_br193_desc"] = "Soll die Vectron BR 193 mit Osteuropa Ausrüstung (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-		["skandinavien_br193"] = "Smartron Vectron BR 193 mit Skandinavien Ausrüstung aktivieren?",
-		["option_skandinavien_br193_desc"] = "Soll die Vectron BR 193 mit Skandinavien Ausrüstung  (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
-
-		
 		["br193_ms_sbb_name"] = 		"BR 193 107 MS SBBCINT Silverpiercer (Bodensee)",
 		["br193_ms_sbb2_name"] = 		"BR 193 258 MS SBBCINT/ELL",
 		["br193_ms_sbb3_name"] = 		"BR 193 658 MS SBBCINT Shadowpiercer (Vierwaldstättersee)",
@@ -152,13 +119,10 @@ return {
 		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
 		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
 		["br193_ms_sbb17_name"] = 		"BR 193 54x MS SBBCINT PLATZHALTER",
-		["br193_ms_sbb18_name"] = 		"BR 193 051 MS SBBC",
-		["br193_ms_sbb19_name"] = 		"BR 193 05x MS SBBC PLATZHALTER",
 
 		--- AC ---
 
 		["br193_ac_sbb_name"] = 		"BR 193 210 AC SBBCINT/ELL",
-		["br193_ac_sbb2_name"] = 		"BR 193 051 AC SBBC",
 		
 		-- Vorspann
         ["Vorspann_br193"] = "Vorspann-Loks aktivieren?",
@@ -187,13 +151,10 @@ return {
 		["br193_ms_sbb15_name_fake"] = 		"Fake - BR 193 45x MS SBBCINT PLATZHALTER",
 		["br193_ms_sbb16_name_fake"] = 		"Fake - BR 193 54x MS SBBCINT PLATZHALTER",
 		["br193_ms_sbb17_name_fake"] = 		"Fake - BR 193 54x MS SBBCINT PLATZHALTER",
-		["br193_ms_sbb18_name_fake"] = 		"Fake - BR 193 05x MS SBBC PLATZHALTER",
-		["br193_ms_sbb19_name_fake"] = 		"Fake - BR 193 05x MS SBBC PLATZHALTER",
 
 		--- AC ---
 		
 		["br193_ac_sbb_name_fake"] = 		"Fake - BR 193 210 AC SBBCINT/ELL",
-		["br193_ac_sbb2_name_fake"] = 		"Fake - BR 193 051 AC SBBC",
 
 
 	},
