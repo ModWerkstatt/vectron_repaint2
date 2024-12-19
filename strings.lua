@@ -2,8 +2,8 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "Siemens Vectron MS und AC Repaint Pack 2",
-		["mod_desc"] = "This is the repaint package for the Siemens Vectron MS and AC from the ModWerkstatt. There are 89 paint finishes included in this package, SBB paint finishes were created in cooperation and under permission of SBB Cargo International and Railcolor.",
+		["mod_name"] = "Vectron repaint package SBB Cargo International",
+		["mod_desc"] = "This is the SBB Cargo International repaint package for the Siemens Vectron MS and AC from ModWerkstatt. An additional 18 paint finishes are included in this package. This package was created in cooperation and with the permission of SBB Cargo International and Railcolor.",
 
 		["br193_ms_sbb_name"] = 		"Class 193 107 MS SBBCINT Silverpiercer (Lake Constance)",
 		["br193_ms_sbb2_name"] = 		"Class 193 258 MS SBBCINT/ELL",
@@ -45,10 +45,10 @@ return {
 		["br193_ms_sbb11_name_fake"] = 		"Fake - Class 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name_fake"] = 		"Fake - Class 193 492 MS SBBCINT Nightpiercer (Rhine)",
 		["br193_ms_sbb13_name_fake"] = 		"Fake - Class 193 139 MS SBBCINT Italypiercer (2024)",		
-		["br193_ms_sbb14_name_fake"] = 		"Fake - BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
-		["br193_ms_sbb15_name_fake"] = 		"Fake - BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name_fake"] = 		"Fake - BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
-		["br193_ms_sbb17_name_fake"] = 		"Fake - BR 193 659 MS SBBCINT Die Güterbahnen (2022)",
+		["br193_ms_sbb14_name_fake"] = 		"Fake - Class 193 544 MS SBBCINT Alppiercer 3 (2024)",
+		["br193_ms_sbb15_name_fake"] = 		"Fake - Class 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
+		["br193_ms_sbb16_name_fake"] = 		"Fake - Class 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
+		["br193_ms_sbb17_name_fake"] = 		"Fake - Class 193 659 MS SBBCINT Die Güterbahnen (2022)",
 
 		--- AC ---
 
@@ -58,8 +58,8 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Vectron Paket SBB Cargo International",
-		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 19 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
+		["mod_name"] = "Vectron Repaintpaket SBB Cargo International",
+		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 18 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
 
 		["br193_ms_sbb_name"] = 		"BR 193 107 MS SBBCINT Silverpiercer (Bodensee)",
 		["br193_ms_sbb2_name"] = 		"BR 193 258 MS SBBCINT/ELL",
