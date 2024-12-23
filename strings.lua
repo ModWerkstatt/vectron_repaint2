@@ -2,7 +2,7 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "Vectron repaint package SBB Cargo International",
+		["mod_name"] = "Vectron SBB Cargo International repaint package",
 		["mod_desc"] = "This is the SBB Cargo International repaint package for the Siemens Vectron MS and AC from ModWerkstatt. An additional 18 paint finishes are included in this package. This package was created in cooperation and with the permission of SBB Cargo International and Railcolor.",
 
 		["br193_ms_sbb_name"] = 		"Class 193 107 MS SBBCINT Silverpiercer (Lake Constance)",
@@ -58,7 +58,7 @@ return {
 	},
 	de = {
 
-		["mod_name"] = "Vectron Repaintpaket SBB Cargo International",
+		["mod_name"] = "Vectron SBB Cargo International Repaintpaket",
 		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 18 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
 
 		["br193_ms_sbb_name"] = 		"BR 193 107 MS SBBCINT Silverpiercer (Bodensee)",
