@@ -5,6 +5,11 @@ return {
 		["mod_name"] = "Vectron SBB Cargo International repaint package",
 		["mod_desc"] = "This is the SBB Cargo International repaint package for the Siemens Vectron MS and AC from ModWerkstatt. An additional 18 paint finishes are included in this package. This package was created in cooperation and with the permission of SBB Cargo International and Railcolor.",
 
+		["br193_desc"] = "The Vectron is a modern three-phase locomotive for international passenger and freight transport in Europe. In 2014 the Vectron MS was presented for the first time with a speed of 200 km/h (also available with 160 km/h) and a continuous output of 6400 kW.",
+
+		["br193_ms"] = 	"Vectron as a multi-system locomotive with 4 pantographs",
+		["br193_ac"] = 	"Vectron as a multi-system locomotive with 2 pantographs",
+
 		["br193_ms_sbb_name"] = 		"Class 193 107 MS SBBCINT Silverpiercer (Lake Constance)",
 		["br193_ms_sbb2_name"] = 		"Class 193 258 MS SBBCINT/ELL",
 		["br193_ms_sbb3_name"] = 		"Class 193 658 MS SBBCINT Shadowpiercer (Lake Lucerne)",
@@ -60,6 +65,11 @@ return {
 
 		["mod_name"] = "Vectron SBB Cargo International Repaintpaket",
 		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 18 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
+
+		["br193_desc"] = "Der Vectron ist eine moderene Drehstromlokomotive für den internationalen Personen- und Güterverkehr in Europa. 2014 wurde erstmal der Vectron MS vorgestellt mit einer Geschwindigkeit von 200 km/h (auch mit 160 km/h erhältlich) und einer Dauerleistung von 6400 kW.",
+
+		["br193_ms"] = 	"Vectron als Mehrsystem-Lok mit 4 Stromabnehmern",
+		["br193_ac"] = 	"Vectron als Wechselstrom-Lok mit 2 Stromabnehmern",
 
 		["br193_ms_sbb_name"] = 		"BR 193 107 MS SBBCINT Silverpiercer (Bodensee)",
 		["br193_ms_sbb2_name"] = 		"BR 193 258 MS SBBCINT/ELL",
