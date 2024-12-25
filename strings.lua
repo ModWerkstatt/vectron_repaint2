@@ -22,11 +22,11 @@ return {
 		["br193_ms_sbb10_name"] = 		"Class 193 532 MS SBBCINT Nightpiercer 2 (Rhine)",
 		["br193_ms_sbb11_name"] = 		"Class 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name"] = 		"Class 193 492 MS SBBCINT Nightpiercer (Rhine)",
-		["br193_ms_sbb13_name"] = 		"Class 193 139 MS SBBCINT Italypiercer (2024)",
-		["br193_ms_sbb14_name"] = 		"Class 193 544 MS SBBCINT Alppiercer 3 (2024)",
-		["br193_ms_sbb15_name"] = 		"Class 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name"] = 		"Class 193 451 MS SBBCINT 1500th Siemens Vectron (2024)",
-		["br193_ms_sbb17_name"] = 		"Class 193 659 MS SBBCINT Die Güterbahnen (2022)",
+		["br193_ms_sbb13_name"] = 		"Class 193 139 MS SBBCINT Italypiercer (Monte Rosa)",
+		["br193_ms_sbb14_name"] = 		"Class 193 544 MS SBBCINT Alppiercer 3 (Federal Palace)",
+		["br193_ms_sbb15_name"] = 		"Class 193 543 MS SBBCINT #BorderlessSwissQuality (Oosterscheldekering)",
+		["br193_ms_sbb16_name"] = 		"Class 193 451 MS SBBCINT 1500th Siemens Vectron (Bavaria)",
+		["br193_ms_sbb17_name"] = 		"Class 193 659 MS SBBCINT Die Güterbahnen (Berlin)",
 
 		--- AC ---
 
@@ -49,11 +49,11 @@ return {
 		["br193_ms_sbb10_name_fake"] = 		"Fake - Class 193 532 MS SBBCINT Nightpiercer 2 (Rhine)",
 		["br193_ms_sbb11_name_fake"] = 		"Fake - Class 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name_fake"] = 		"Fake - Class 193 492 MS SBBCINT Nightpiercer (Rhine)",
-		["br193_ms_sbb13_name_fake"] = 		"Fake - Class 193 139 MS SBBCINT Italypiercer (2024)",
-		["br193_ms_sbb14_name_fake"] = 		"Fake - Class 193 544 MS SBBCINT Alppiercer 3 (2024)",
-		["br193_ms_sbb15_name_fake"] = 		"Fake - Class 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name_fake"] = 		"Fake - Class 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
-		["br193_ms_sbb17_name_fake"] = 		"Fake - Class 193 659 MS SBBCINT Die Güterbahnen (2022)",
+		["br193_ms_sbb13_name_fake"] = 		"Fake - Class 193 139 MS SBBCINT Italypiercer (Monte Rosa)",
+		["br193_ms_sbb14_name_fake"] = 		"Fake - Class 193 544 MS SBBCINT Alppiercer 3 (Federal Palace)",
+		["br193_ms_sbb15_name_fake"] = 		"Fake - Class 193 543 MS SBBCINT #BorderlessSwissQuality (Oosterscheldekering)",
+		["br193_ms_sbb16_name_fake"] = 		"Fake - Class 193 451 MS SBBCINT 1500. Siemens Vectron (Bavaria)",
+		["br193_ms_sbb17_name_fake"] = 		"Fake - Class 193 659 MS SBBCINT Die Güterbahnen (Berlin)",
 
 		--- AC ---
 
@@ -82,11 +82,11 @@ return {
 		["br193_ms_sbb10_name"] = 		"BR 193 532 MS SBBCINT Nightpiercer 2 (Rhein)",
 		["br193_ms_sbb11_name"] = 		"BR 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name"] = 		"BR 193 492 MS SBBCINT Nightpiercer (Rhein)",
-		["br193_ms_sbb13_name"] = 		"BR 193 139 MS SBBCINT Italienpiercer (2024)",
-		["br193_ms_sbb14_name"] = 		"BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
-		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
-		["br193_ms_sbb17_name"] = 		"BR 193 659 MS SBBCINT Die Güterbahnen (2022)",
+		["br193_ms_sbb13_name"] = 		"BR 193 139 MS SBBCINT Italienpiercer (Monte Rosa)",
+		["br193_ms_sbb14_name"] = 		"BR 193 544 MS SBBCINT Alppiercer 3 (Bundeshaus))",
+		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (Oosterscheldekering)",
+		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (Bavaria)",
+		["br193_ms_sbb17_name"] = 		"BR 193 659 MS SBBCINT Die Güterbahnen (Berlin)",
 
 		--- AC ---
 
@@ -108,11 +108,11 @@ return {
 		["br193_ms_sbb10_name_fake"] = 		"Fake - BR 193 532 MS SBBCINT Nightpiercer 2 (Rhein)",
 		["br193_ms_sbb11_name_fake"] = 		"Fake - BR 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name_fake"] = 		"Fake - BR 193 492 MS SBBCINT Nightpiercer (Rhein)",
-		["br193_ms_sbb13_name_fake"] = 		"Fake - BR 193 139 MS SBBCINT Italienpiercer (2024)",
-		["br193_ms_sbb14_name_fake"] = 		"Fake - BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
-		["br193_ms_sbb15_name_fake"] = 		"Fake - BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name_fake"] = 		"Fake - BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
-		["br193_ms_sbb17_name_fake"] = 		"Fake - BR 193 659 MS SBBCINT Die Güterbahnen (2022)",
+		["br193_ms_sbb13_name_fake"] = 		"Fake - BR 193 139 MS SBBCINT Italienpiercer (Monte Rosa)",
+		["br193_ms_sbb14_name_fake"] = 		"Fake - BR 193 544 MS SBBCINT Alppiercer 3 (Bundeshaus)",
+		["br193_ms_sbb15_name_fake"] = 		"Fake - BR 193 543 MS SBBCINT #BorderlessSwissQuality (Oosterscheldekering)",
+		["br193_ms_sbb16_name_fake"] = 		"Fake - BR 193 451 MS SBBCINT 1500. Siemens Vectron (Bavaria)",
+		["br193_ms_sbb17_name_fake"] = 		"Fake - BR 193 659 MS SBBCINT Die Güterbahnen (Berlin)",
 
 		--- AC ---
 
