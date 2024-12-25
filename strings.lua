@@ -22,14 +22,14 @@ return {
 		["br193_ms_sbb10_name"] = 		"Class 193 532 MS SBBCINT Nightpiercer 2 (Rhine)",
 		["br193_ms_sbb11_name"] = 		"Class 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name"] = 		"Class 193 492 MS SBBCINT Nightpiercer (Rhine)",
-		["br193_ms_sbb13_name"] = 		"Class 193 139 MS SBBCINT Italypiercer (2024)",		
+		["br193_ms_sbb13_name"] = 		"Class 193 139 MS SBBCINT Italypiercer (2024)",
 		["br193_ms_sbb14_name"] = 		"Class 193 544 MS SBBCINT Alppiercer 3 (2024)",
 		["br193_ms_sbb15_name"] = 		"Class 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
-		["br193_ms_sbb16_name"] = 		"Class 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
+		["br193_ms_sbb16_name"] = 		"Class 193 451 MS SBBCINT 1500th Siemens Vectron (2024)",
 		["br193_ms_sbb17_name"] = 		"Class 193 659 MS SBBCINT Die Güterbahnen (2022)",
 
 		--- AC ---
-		
+
 		["br193_ac_sbb_name"] = 		"Class 193 210 AC SBBCINT/ELL",
 		["br193_ac_sbb2_name"] = 		"Class 193 051 AC SBBC",
 
@@ -49,7 +49,7 @@ return {
 		["br193_ms_sbb10_name_fake"] = 		"Fake - Class 193 532 MS SBBCINT Nightpiercer 2 (Rhine)",
 		["br193_ms_sbb11_name_fake"] = 		"Fake - Class 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name_fake"] = 		"Fake - Class 193 492 MS SBBCINT Nightpiercer (Rhine)",
-		["br193_ms_sbb13_name_fake"] = 		"Fake - Class 193 139 MS SBBCINT Italypiercer (2024)",		
+		["br193_ms_sbb13_name_fake"] = 		"Fake - Class 193 139 MS SBBCINT Italypiercer (2024)",
 		["br193_ms_sbb14_name_fake"] = 		"Fake - Class 193 544 MS SBBCINT Alppiercer 3 (2024)",
 		["br193_ms_sbb15_name_fake"] = 		"Fake - Class 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
 		["br193_ms_sbb16_name_fake"] = 		"Fake - Class 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
@@ -59,12 +59,11 @@ return {
 
 		["br193_ac_sbb_name_fake"] = 		"Fake - Class 193 210 AC SBBCINT/ELL",
 
-
 	},
 	de = {
 
 		["mod_name"] = "Vectron SBB Cargo International Repaintpaket",
-		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 18 Lackierungen enthalten. Dieses Paket entstande Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
+		["mod_desc"] = "Dies ist das SBB Cargo International Repaintpaket für die Siemens Vectron MS und AC von der ModWerkstatt. In diesem Paket sind weitere 18 Lackierungen enthalten. Dieses Paket entstand in Kooperation und mit Erlaubnis der SBB Cargo International und Railcolor.",
 
 		["br193_desc"] = "Der Vectron ist eine moderene Drehstromlokomotive für den internationalen Personen- und Güterverkehr in Europa. 2014 wurde erstmal der Vectron MS vorgestellt mit einer Geschwindigkeit von 200 km/h (auch mit 160 km/h erhältlich) und einer Dauerleistung von 6400 kW.",
 
@@ -83,7 +82,7 @@ return {
 		["br193_ms_sbb10_name"] = 		"BR 193 532 MS SBBCINT Nightpiercer 2 (Rhein)",
 		["br193_ms_sbb11_name"] = 		"BR 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name"] = 		"BR 193 492 MS SBBCINT Nightpiercer (Rhein)",
-		["br193_ms_sbb13_name"] = 		"BR 193 139 MS SBBCINT Italienpiercer (2024)",		
+		["br193_ms_sbb13_name"] = 		"BR 193 139 MS SBBCINT Italienpiercer (2024)",
 		["br193_ms_sbb14_name"] = 		"BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
 		["br193_ms_sbb15_name"] = 		"BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
 		["br193_ms_sbb16_name"] = 		"BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
@@ -92,7 +91,7 @@ return {
 		--- AC ---
 
 		["br193_ac_sbb_name"] = 		"BR 193 210 AC SBBCINT/ELL",
-		
+
 		-- Vorspann
 		["br193_ac_sbb_name_vorspann"] = 		"Vorspann - BR 193 210 AC SBBCINT/ELL",
 
@@ -109,16 +108,15 @@ return {
 		["br193_ms_sbb10_name_fake"] = 		"Fake - BR 193 532 MS SBBCINT Nightpiercer 2 (Rhein)",
 		["br193_ms_sbb11_name_fake"] = 		"Fake - BR 193 110 MS SBBCINT Goldpiercer (Zuckersee)",
 		["br193_ms_sbb12_name_fake"] = 		"Fake - BR 193 492 MS SBBCINT Nightpiercer (Rhein)",
-		["br193_ms_sbb13_name_fake"] = 		"Fake - BR 193 139 MS SBBCINT Italienpiercer (2024)",		
+		["br193_ms_sbb13_name_fake"] = 		"Fake - BR 193 139 MS SBBCINT Italienpiercer (2024)",
 		["br193_ms_sbb14_name_fake"] = 		"Fake - BR 193 544 MS SBBCINT Alppiercer 3 (2024)",
 		["br193_ms_sbb15_name_fake"] = 		"Fake - BR 193 543 MS SBBCINT #BorderlessSwissQuality (2024)",
 		["br193_ms_sbb16_name_fake"] = 		"Fake - BR 193 451 MS SBBCINT 1500. Siemens Vectron (2024)",
 		["br193_ms_sbb17_name_fake"] = 		"Fake - BR 193 659 MS SBBCINT Die Güterbahnen (2022)",
 
 		--- AC ---
-		
-		["br193_ac_sbb_name_fake"] = 		"Fake - BR 193 210 AC SBBCINT/ELL",
 
+		["br193_ac_sbb_name_fake"] = 		"Fake - BR 193 210 AC SBBCINT/ELL",
 
 	},
 }
