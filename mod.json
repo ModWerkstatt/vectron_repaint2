@@ -1,0 +1,67 @@
+{
+    "dependencies": [
+        {
+            "mod": {
+                "modId": "mw_vectron",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "Siemens Vectron basic package",
+                 "url": "https://modwerkstatt.com/downloads/tpf3/vectron"
+            },
+            "loadBefore": true,
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_vectron_repaint2",
+    "options": null,
+    "params": [
+        {
+            "key": "br193_vorspann",
+            "name": "vorspann_br193",
+            "tooltip": "tooltip_vorspann",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        },
+		{
+            "key": "br193_fake",
+            "name": "fake_br193",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        },
+		{
+            "key": "br193_assets",
+            "name": "assets",
+            "tooltip": "tooltip_assets",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
+    "postRunScript": {
+        "fileName": "mw_vectron_repaint2::mod.script@postRunFn"
+    },
+    "preRunScript": {
+        "fileName": ""
+	},
+    "runScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

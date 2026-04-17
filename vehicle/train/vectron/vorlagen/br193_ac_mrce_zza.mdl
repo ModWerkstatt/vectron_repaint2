@@ -1,0 +1,1891 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 33.8249969482421875, 7.630477428436279296875, 5.9034862518310546875, },
+			bbMin = { -33.8249969482421875, -7.630477428436279296875, -7.24894428253173828125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.520000457763671875, 1.55499994754791259765625, 2.9500000476837158203125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.9500000476837158203125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/rumpf_ac_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/griff_alt_lod0.msh",
+							name = "griffe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/tritt_alt_lod0.msh",
+							name = "tritt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/front_zza_lod0.msh",
+							name = "front",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/lamellen_lod0.msh",
+							name = "lamellen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/bahnraumer_alt_lod0.msh",
+							name = "bahnraumer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/br193_innen.mtl", },
+							mesh = "mw_vectron::msh/br193/innen_lod0.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/br193_innen.mtl", },
+							mesh = "mw_vectron::msh/br193/pult_b_lod0.msh",
+							name = "pult",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/vectron_glas.mtl", },
+							mesh = "mw_vectron::msh/br193/glas_lod0.msh",
+							name = "glas",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/vectron_glas.mtl", },
+							mesh = "mw_vectron::msh/br193/glas_zza_lod0.msh",
+							name = "glas_zza",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/drehgestell_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/dg_anbau_ac_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/drehgestell_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/dg_anbau_ac_lod0.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_oben2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_oben3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_unten4",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten4",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_oben5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod0.msh",
+							name = "einholm_oben6",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod0.msh",
+							name = "einholm_unten6",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben3",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten3",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben5",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten5",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_fwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_bwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_bwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 80,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/rumpf_ac_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/br193_innen.mtl", },
+							mesh = "mw_vectron::msh/br193/innen_lod1.msh",
+							name = "interior",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mw_vectron::mat/vectron_glas.mtl", },
+							mesh = "mw_vectron::msh/br193/glas_lod0.msh",
+							name = "glas",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/drehgestell_lod1.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/drehgestell_lod1.msh",
+									name = "bogie",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_oben",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_oben2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_oben3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_unten4",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten4",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_oben5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten5",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_oben_1_lod1.msh",
+							name = "einholm_oben6",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/panto_unten_4_lod1.msh",
+							name = "einholm_unten6",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben3",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten3",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben5",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								inner_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten5",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_oben6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0799999237060546875, 0, 5.80000019073486328125, 1, },
+						},
+						{ 
+							animations = { 
+								inner_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								inner_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/inner_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/schleifleiste_de_lod0.msh",
+							name = "schleifleiste_unten6",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.0799999237060546875, 0, 4.219999790191650390625, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_fwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_bwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_bwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 80,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/rumpf_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5, 0, 0.58561599254608154296875, 1, },
+								},
+								{ 
+									materials = { "mat/br193_ac_mrce.mtl", },
+									mesh = "mw_vectron::msh/br193/radsatz_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, 0.58561599254608154296875, 1, },
+								},
+							},
+							name = "bogie2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0.02999999932944774627685546875, 1, },
+						},
+						{ 
+							animations = { 
+								front_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_fwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								front_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								front_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_white_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_lod0.msh",
+							name = "headlights_bwd",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_vectron::mat/vectron_red_lights.mtl", },
+							mesh = "mw_vectron::msh/br193/fahrtlicht_1_rot_lod0.msh",
+							name = "taillights_bwd",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.004999999888241291046142578125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 900,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/br193_ac_mrce.mtl", },
+							mesh = "mw_vectron::msh/br193/rumpf_lod3.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 900,
+				visibleTo = 1800,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2021,
+				yearTo = 2023,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("br193_ac_desc"),
+				name = _("br193_ac_mrce_zza"),
+			},
+			emissions = { 
+				noise = { 
+					score = 40,
+				},
+				pollution = { 
+					score = 25,
+				},
+			},
+			extent = { 
+				bbMax = { 9.51971435546875, 1.55252754688262939453125, 5.9034862518310546875, },
+				bbMin = { -9.51971435546875, -1.55252754688262939453125, -0.02694976329803466796875, },
+			},
+			labelList = { 
+				labels = {
+					{ 
+						alignment = "CENTER",
+						childId = "body",
+						color = { 0.85098040103912353515625, 0.517537176609039306640625, 0.02169168181717395782470703125, },
+						renderMode = "EMISSIVE",
+						size = { 1.39999997615814208984375, 0.189999997615814208984375, },
+						transf = { -0.00000004371138828673792886547744274139404296875, 1, 0, 0, 0.00000004371138828673792886547744274139404296875, 0.0000000000000019106854651647050061247234964412200497463345527649, 1, 0, 1, 0.00000004371138828673792886547744274139404296875, -0.00000004371138828673792886547744274139404296875, 0, 9.06000041961669921875, -0.699999988079071044921875, 2.0099999904632568359375, 1, },
+						type = "NEXT_STOP",
+						verticalAlignment = "CENTER",
+					},
+					{ 
+						alignment = "CENTER",
+						childId = "body",
+						color = { 0.85098040103912353515625, 0.517537176609039306640625, 0.02169168181717395782470703125, },
+						renderMode = "EMISSIVE",
+						size = { 1.39999997615814208984375, 0.189999997615814208984375, },
+						transf = { 0.0000000119248806385030547971837222576141357421875, -1, 0, 0, -0.00000004371138828673792886547744274139404296875, -0.0000000000000005212530643119821227582377787257428281009197235107, 1, 0, -1, -0.0000000119248806385030547971837222576141357421875, -0.00000004371138828673792886547744274139404296875, 0, -9.06000041961669921875, 0.699999988079071044921875, 2.0099999904632568359375, 1, },
+						type = "NEXT_STOP",
+						verticalAlignment = "CENTER",
+					},
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = {
+					{ 
+						power = 6400,
+						tractiveEffort = 300,
+						type = "ELECTRIC",
+					},
+				},
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 55.555599212646484375,
+				weight = 84,
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 15,
+						angleMin = 1,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 25,
+						strength = 3,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, 1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 15,
+						angleMin = 1,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 25,
+						strength = 3,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, -1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 12,
+						angleMin = 1,
+						color = { 0.886274516582489013671875, 0.013902344740927219390869140625, 0.013902344740927219390869140625, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_fwd",
+						mode = "LIGHT",
+						radius = 15,
+						strength = 1,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, 1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 12,
+						angleMin = 1,
+						color = { 0.886274516582489013671875, 0.013902344740927219390869140625, 0.013902344740927219390869140625, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_fwd",
+						mode = "LIGHT",
+						radius = 15,
+						strength = 1,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, -1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 15,
+						angleMin = 1,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 25,
+						strength = 3,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, 1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 15,
+						angleMin = 1,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 25,
+						strength = 3,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, -1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 12,
+						angleMin = 1,
+						color = { 0.886274516582489013671875, 0.013902344740927219390869140625, 0.013902344740927219390869140625, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_bwd",
+						mode = "LIGHT",
+						radius = 15,
+						strength = 1,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, 1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						angleMax = 12,
+						angleMin = 1,
+						color = { 0.886274516582489013671875, 0.013902344740927219390869140625, 0.013902344740927219390869140625, },
+						fadeOutStart = 500,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_bwd",
+						mode = "LIGHT",
+						radius = 15,
+						strength = 1,
+						transf = { 0.995004177093505859375, 0, -0.099833421409130096435546875, 0, 0, 1, 0, 0, 0.099833421409130096435546875, 0, 0.995004177093505859375, 0, 8.8199977874755859375, -1.15999996662139892578125, 1.6000001430511474609375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = false,
+						lightId = "",
+						mask = 32,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 2.5,
+						strength = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.320000171661376953125, 0, 3, 1, },
+						type = "POINT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+					{ 
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 500,
+						invertMask = false,
+						lightId = "",
+						mask = 32,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 2.5,
+						strength = 1,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.320000171661376953125, 0, 3, 1, },
+						type = "POINT",
+						visibleFrom = -1,
+						visibleTo = 900,
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 21915,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { "::/characters/era_c_driver_rail/era_c_driver_rail.mdl", },
+				drivingLicense = "RAIL",
+				seats = {
+					{ 
+						animation = "driving_upright",
+						crew = true,
+						group = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.55000019073486328125, -0.60000002384185791015625, 1.7000000476837158203125, 1, },
+					},
+					{ 
+						animation = "driving_upright",
+						crew = true,
+						forward = false,
+						group = "body",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.55000019073486328125, 0.60000002384185791015625, 1.7000000476837158203125, 1, },
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_vectron::/vehicle/train/vectron/sound/vectron.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				engineTags = { "ELECTRIC_TRAIN", },
+				groupFileName = "mw_vectron::/vehicle/train/vectron/menu_br193_ac.mdl",
+				reversible = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

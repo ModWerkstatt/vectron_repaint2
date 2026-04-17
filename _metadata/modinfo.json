@@ -1,0 +1,22 @@
+{
+"name": "Vectron Repaint Pack 2 - SBB",
+"summary": "This package includes various SBB Cargo International and SBB Cargo liveries. It contains over 15 liveries.",
+"description": "This repaint package includes, among others, the Alppiercer 1, 2, and 3, Shadowpiercer, and Silverpiercer liveries. It also includes special liveries such as the Nightpiercer, Goldpiercer, and Hollandpiercer.",
+"localization" : {
+"de": {
+"name": "Vectron Repaintpaket 2 - SBB",
+"summary": "In diesem Paket sind verschiedene der Lackierung SBB Cargo International und der SBB Cargo. Es sind über 15 Lackierungen enthalten.",
+"description": "In diesem Repaint Paket sind unteranderen die Lackierungen Alppiercer 1, 2, 3, Shadowpiercer und Silverpiercer enthalten. Es sind auch Sonderlackierungen wie der Nightpiercer, Goldpiercer oder der Hollandpiercer dabei."
+}
+},
+"authors": [
+{
+"name": "ModWerkstatt",
+"role": "CREATOR"
+}
+],
+"tags": [
+"Locomotive"
+],
+"url": "https://modwerkstatt.com/downloads/tpf3/vectron-repaint-paket-2"
+}

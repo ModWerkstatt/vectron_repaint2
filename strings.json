@@ -1,0 +1,129 @@
+{	
+  "en": {   
+		"vorspann": "Lead - ",
+		"fake": "Fake - ",
+		
+		"vorspann_br193": "Activate opening credits variants?",
+		"tooltip_vorspann": "Should the Siemens Vectron's preload variants be activated?",	
+		"fake_br193": "Activate fake variants?",
+		"tooltip_fake": "Should the Siemens Vectron's preload variants be activated?",	
+		"elektrisch_br193": "Activate electrical variants of dual mode?",
+		"tooltip_elektrisch": "Should the electric (current collector at the top) version of the Vectron Dual Mode (BR 248) be activated?",		
+		
+		"br193_ms_desc": "The multi-system version of the Vectron can operate in up to 20 European countries and has four pantographs on the roof.",
+		"br193_ac_desc": "The Vectron in the AC version has 2 or, depending on the equipment, 3 pantographs on the roof.",
+		"br193_dc_desc": "The Vectron in the DC version has 2 on the roof.",
+		"br193_sk_desc": "The Vectron in the AC version for service in Scandinavia has three pantographs on the roof.",
+		"br192_desc": "The Smartron is a slimmed-down version of the Vectron. The Smartron is only available in metallic blue, has an output of 5600 kW, and is only approved for speeds of up to 140 km/h. The locomotive may only be operated in one country at a time. The Smartron is equipped with the PZB/LZB and ETCS train control systems for Germany.",
+		"br247_desc": "The diesel-electric version of the Vectron is powered by a diesel engine.",
+		"br248_desc": "The dual-power version of the Vectron is also known as Dual Mode (DM). Dual Mode can switch between diesel and electric drive.",
+		"br249_desc": "The Vectron in the dual-power variant in the Light version is also referred to as Dual Mode Light (DML). Dual Mode can switch between diesel and electric drive, is lighter than the normal Dual Mode and has shunting steps.",
+			
+		"br191_dc_beacon": "BR 191(IT) jet black Beacon Rail",
+		"br191_dc_mrce": "BR 191(IT) jet black MRCE",
+		
+		"br192_northrail": "BR 192 capriblue Northrail",
+		
+		"br193_ac_beacon": "BR 193 jet black Beacon Rail",
+		"br193_ac_beacon_zza": "BR 193 jet black Beacon Rail with Zza",
+		"br193_ac_ell": "BR 193 jet black ELL",
+		"br193_ac_mrce": "BR 193 jet black MRCE",
+		"br193_ac_mrce_zza": "BR 193 jet black MRCE with Zza",
+		
+		"br193_ms_akiem": "BR 193 white aluminum Akiem",
+		"br193_ms_atlu": "BR 193 white aluminum/neon green Alpha Trains",
+		"br193_ms_beacon": "BR 193 jet black Beacon",
+		"br193_ms_beacon2": "BR 193 blue Beacon",
+		"br193_ms_beacon3": "BR 193 blue Beacon - Equipment A22",
+		"br193_ms_beacon4": "BR 193 traffic wihte Beacon",
+		"br193_ms_beacon5": "BR 193 818 traffic red Beacon",
+		"br193_ms_ell": "BR 193 black ELL",
+		"br193_ms_hupac": "BR 193 ultramarine blue Hupac",
+		"br193_ms_mrce": "BR 193 jet black MRCE",
+		"br193_ms_rpool": "BR 193 white aluminum Railpool",
+		"br193_ms_rsl": "BR 193 traffic wihte RSL",
+	
+		"br193_sk_akiem": "BR 193 white aluminum Akiem - Scandinavia",
+		"br193_sk_atlu": "BR 193 white aluminum/neon green Alpha Trains - Scandinavia",
+		"br193_sk_rpool": "BR 193 white aluminum Railpool - Scandinavia",
+	
+		"br248_atlu": "BR 248 white aluminum/neon green Alpha Trains",
+		"br248_northrail": "BR 248 light gray Northrail",
+		"br248_northrail2": "BR 248 capriblue Northrail - without Logo",
+		"br248_northrail3": "BR 248 light gray Northrail - without Logo",
+		"br248_northrail4": "BR 248 capriblue Northrail",
+		
+		"assets": "Assets Show?",
+		"tooltip_assets": "Should the assets be capitalized?",
+		"vectron_assets": "Vectron Repainting Package 2 - SBB",
+		"vectron_assets_desc": "This menu contains the Vectron variants from the Repainting Package 2 - SBB.",
+		"auswahl_vectron": "Selection of available options",
+		"tooltip_auswahl": "A selection of the different options available.",
+		"x_axis": "X-axis offset",
+		"tooltip_offest_x": "The asset can be moved along the X-axis in 10-centimeter increments."
+  },  
+  "de": {
+    
+		"vorspann": "Vorspann - ",
+		"fake": "Fake - ",
+		
+		"vorspann_br193": "Vorspann Varianten aktivieren?",
+		"tooltip_vorspann": "Sollen die Vorspann Varianten der Siemens Vectron aktiviert werden?",	
+		"fake_br193": "Fake Varianten aktivieren?",
+		"tooltip_fake": "Sollen die Vorspann Varianten der Siemens Vectron aktiviert werden?",	
+		"elektrisch_br193": "Elektrische Varianten der Dual Mode aktivieren?",
+		"tooltip_elektrisch": "Soll die Elektrische(Stromabnehmer oben) Variante der Vectron Dual Mode(BR 248) aktiviert werden?",		
+			
+		"br193_ms_desc": "Der Vectron in der Mehrsystem Variante kann in bis zu 20 europäischen Ländern verkehren und besitzt 4 Stromabnehmer auf dem Dach.",
+		"br193_ac_desc": "Der Vectron in der Wechselstrom Variante besitzt 2 oder ja nach Aussattung 3 Stromabnehmer auf dem Dach, diese Variante gibt es auch mit Zug Zielanzeiger.",
+		"br193_dc_desc": "Der Vectron in der Gleichstrom Variante besitzt 2 innenliegende Stromabnehmer auf dem Dach.",   
+		"br193_sk_desc": "Der Vectron in der Wechselstrom Variante für den Skandinavien Verkehr besitzt 3 Stromabnehmer auf dem Dach.",
+		"br192_desc": "Die Smartron ist eine abgespeckte Version der Vectron. Die Smartron ist nur in capriblau erhältlich und die Lok darf auch immer nur in einem Land verkehren.",
+		"br247_desc": "Der Vectron in der dieselektrischen Variante wird nur durch einen Diesel Motor angetrieben.",
+		"br248_desc": "Der Vectron in der Zweikraftvariante wird auch als Dual Mode(DM) bezeichnet. Die Dual Mode kann zwischen dem Diesel und dem Elektrischenantrieb wecheln.",
+		"br249_desc": "Der Vectron in der Zweikraftvariante in der Light Version wird auch als Dual Mode Light(DML) bezeichnet. Die Dual Mode kann zwischen dem Diesel und dem Elektrischenantrieb wecheln, diese ist leichter also die normale Dual Mode und besitzt Rangiertritte.",
+	
+		"br191_dc_beacon": "BR 191(IT) tiefschwarz Beacon Rail",
+		"br191_dc_mrce": "BR 191(IT) tiefschwarz MRCE",	
+	
+		"br192_northrail": "BR 192 capriblau Northrail",
+		
+		"br193_ac_beacon": "BR 193 tiefschwarz Beacon Rail",
+		"br193_ac_beacon_zza": "BR 193 tiefschwarz Beacon Rail mit Zza",
+		"br193_ac_ell": "BR 193 tiefschwarz ELL",
+		"br193_ac_mrce": "BR 193 tiefschwarz MRCE",
+		"br193_ac_mrce_zza": "BR 193 tiefschwarz MRCE mit Zza",
+		
+		"br193_ms_akiem": "BR 193 weißaluminium Akiem",
+		"br193_ms_atlu": "BR 193 weißaluminium/neongrün Alpha Trains",
+		"br193_ms_beacon": "BR 193 tiefschwarz Beacon",
+		"br193_ms_beacon2": "BR 193 blau Beacon",
+		"br193_ms_beacon3": "BR 193 blau Beacon - Ausrüstung A22",
+		"br193_ms_beacon4": "BR 193 verkehrsweiß Beacon",
+		"br193_ms_beacon5": "BR 193 818 verkehrsrot Beacon",
+		"br193_ms_ell": "BR 193 schwarz ELL",
+		"br193_ms_hupac": "BR 193 ultramarinblau Hupac",
+		"br193_ms_mrce": "BR 193 tiefschwarz MRCE",
+		"br193_ms_rpool": "BR 193 weißaluminium Railpool",
+		"br193_ms_rsl": "BR 193 verkehrsweiß RSL",
+	
+		"br193_sk_akiem": "BR 193 weißaluminium Akiem - Skandinavien",
+		"br193_sk_atlu": "BR 193 weißaluminium/neongrün Alpha Trains - Skandinavien",
+		"br193_sk_rpool": "BR 193 weißaluminium Railpool - Skandinavien",
+	
+		"br248_atlu": "BR 248 weißaluminium/neongrün Alpha Trains",
+		"br248_northrail": "BR 248 lichtgrau Northrail",
+		"br248_northrail2": "BR 248 capriblau Northrail - Ohne Logo",
+		"br248_northrail3": "BR 248 lichtgrau Northrail - Ohne Logo",
+		"br248_northrail4": "BR 248 capriblau Northrail",
+		
+		"assets": "Assets einblenden?",
+		"tooltip_assets": "Soll die Assets aktiviert werden?",		
+		"vectron_assets": "Vectron Repaint Paket 2 - SBB",
+		"vectron_assets_desc": "In diesem Menü sind die Vectron Varianten aus dem Repaint Paket 2 - SBB verfügbar.",
+		"auswahl_vectron": "Auswahl der verfügbaren Varianten",
+		"tooltip_auswahl": "Auswahl der verschiedenen Varaianten die verfügbar sind.",
+		"x_axis": "Verschub x-Achse",
+		"tooltip_offest_x": "Das Asset kann auf der X-Achse in 10cm schritten verschoben werden."
+  }
+}
