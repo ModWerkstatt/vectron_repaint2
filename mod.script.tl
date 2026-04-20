@@ -26,7 +26,8 @@ mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, 
 			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb12.mdl",
 			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb13.mdl",
 			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb14.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb15.mdl", },
+			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb15.mdl",
+			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb16.mdl", },
 		[2] = { }
 	}
 	local assets_hide: {{string}} = {
