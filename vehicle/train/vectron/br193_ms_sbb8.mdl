@@ -861,7 +861,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "sound/vectron.snd",
+					name = "mw_vectron::/vehicle/train/vectron/sound/vectron.snd",
 				},
 			},
 			transformatorConfig = { 
