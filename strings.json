@@ -92,7 +92,7 @@
 		"vectron_assets": "Vectron Repaint Paket 2 - SBB",
 		"vectron_assets_desc": "In diesem Menü sind die Vectron Varianten aus dem Repaint Paket 2 - SBB verfügbar.",
 		"auswahl_vectron": "Auswahl der verfügbaren Varianten",
-		"tooltip_auswahl": "Auswahl der verschiedenen Varaianten die verfügbar sind.",
+		"tooltip_auswahl": "Auswahl der verschiedenen Varianten die verfügbar sind.",
 		"x_axis": "Verschub x-Achse",
 		"tooltip_offest_x": "Das Asset kann auf der X-Achse in 10cm schritten verschoben werden."
   }
