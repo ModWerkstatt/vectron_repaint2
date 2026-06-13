@@ -5,34 +5,34 @@ mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, 
 
 	local vorspann_hide: {{string}} = {
 		[1] = { 
-			"mw_vectron_repaint2::/vehicle/train/vectron/vorspann_br193_ac_sbb.mdl", },
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/vorspann_br193_ac_sbb.mdl", },
 		[2] = { }
 	}
 	local fake_hide: {{string}} = {
 		[1] = {
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ac_sbb.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ac_sbb2.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb2.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb3.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb4.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb5.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb6.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb7.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb8.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb9.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb10.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb11.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb12.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb13.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb14.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb15.mdl",
-			"mw_vectron_repaint2::/vehicle/train/vectron/fake_br193_ms_sbb16.mdl", },
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ac_sbb.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ac_sbb2.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb2.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb3.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb4.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb5.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb6.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb7.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb8.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb9.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb10.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb11.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb12.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb13.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb14.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb15.mdl",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/fake_br193_ms_sbb16.mdl", },
 		[2] = { }
 	}
 	local assets_hide: {{string}} = {
 		[1] = {
-			"mw_vectron_repaint2::/vehicle/train/vectron/assets_vectron.con",
+			"mw_vectron_repaint2::/content/vehicle/train/vectron/assets_vectron.con",
 		},
 		[2] = { }
 	}
