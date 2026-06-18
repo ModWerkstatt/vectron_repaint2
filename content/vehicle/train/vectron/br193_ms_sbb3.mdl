@@ -878,10 +878,11 @@ return {
 			},
 			transportVehicle = { 
 				carrier = "RAIL",
-				engineTags = { "ELECTRIC_TRAIN", },
+				engineTransportModes = { "ELECTRIC_TRAIN", },
 				groupFileName = "mw_vectron::/vehicle/train/vectron/menu_br193_ms.mdl",
 				reversible = true,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
