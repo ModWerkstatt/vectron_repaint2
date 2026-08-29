@@ -24,7 +24,7 @@ return {
 	menuCategory = {
 		categories = {
 			{
-				category = "landscaping_assets",
+				category = "landscaping_vehicles",
 				order = 5000,
 			},
 		},
