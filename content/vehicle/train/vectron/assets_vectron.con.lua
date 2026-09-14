@@ -18,13 +18,14 @@ return {
 	description = { 
 		name = _("vectron_assets"),			
 		description = _("vectron_assets_desc"),
-		icon = "icons/asset_vectron_icon@2x.tga",
-		previewIcon = "icons/asset_vectron_preview@2x.tga",
+		icon = "icons/assets_vectron_icon_small@2x.tga",
+		previewIcon = "icons/assets_vectron_preview@2x.tga",
 	},
 	menuCategory = {
 		categories = {
 			{
 				category = "landscaping_vehicles",
+				filterCategories = {"train"},
 				order = 5000,
 			},
 		},
