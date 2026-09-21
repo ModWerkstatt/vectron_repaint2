@@ -1349,13 +1349,15 @@ return {
 				description = _("br193_ac_desc"),
 				name = _("vorspann") .. _("br193_ac_sbb"),
 			},
-			emissions = {
-				noise = {
+			emissions = { 
+				noise = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
 				},
-				pollution = {
+				pollution = { 
+					score = -1,
 					idle = -1,
 					power = -1,
 					speed = -1,
