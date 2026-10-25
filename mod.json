@@ -1,4 +1,5 @@
 {
+	"cosmetic" : true,
     "dependencies": [
         {
             "mod": {
