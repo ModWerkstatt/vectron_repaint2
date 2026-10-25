@@ -1,9 +1,4 @@
 local constructionutil = require "::/scripts/construction/constructionutil.lua"
-local paramsutil = require "::/scripts/construction/param_util.tl"
-local transf = require "::/scripts/mat4.tl"
-local vec3 = require "::/scripts/vec3.tl"
-
-local constructionutil = require "::/scripts/construction/constructionutil.lua"
 
 function data()
     return {
