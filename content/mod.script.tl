@@ -1,7 +1,6 @@
 local mod = {}
 
 mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, string}}, allModParams : {string : {string : integer}} )
-	log.message("postRunFn called")
 
 	local vorspann_hide: {{string}} = {
 		[1] = { 
@@ -40,14 +39,12 @@ mod.postRunFn = function(captureParams : NativeLuaTable, configDict : {{string, 
 	local selectedfilter_vorspann: integer = allModParams[getCurrentModId()].br193_vorspann
 
 	for _, v in ipairs(vorspann_hide[selectedfilter_vorspann]) do
-		debugPrint("hide " .. v .. api.res.modelRep.find(v))
 		api.res.modelRep.setVisible(api.res.modelRep.find(v), false)
 	end
 
 	local selectedfilter_fake: integer = allModParams[getCurrentModId()].br193_fake
 
 	for _, v in ipairs(fake_hide[selectedfilter_fake]) do
-		debugPrint("hide " .. v .. api.res.modelRep.find(v))
 		api.res.modelRep.setVisible(api.res.modelRep.find(v), false)
 	end
 	
